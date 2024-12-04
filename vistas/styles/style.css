@@ -1,0 +1,67 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #fcfcfc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.tabla{
+    margin: auto;
+    margin-top: 20px;
+    max-width: 95%;
+    text-align: justify;
+    font-weight: 400;
+    border: rgb(40, 25, 240) 2px solid;
+
+}
+.tabla thead tr th{
+    font-weight: 600;
+}
+.tabla thead{
+    background-color: #eee;
+    border: #4c4cff 2px solid;
+}
+.tabla th{
+    text-align: center;
+    font-weight: 400;
+    min-width: 80px;
+}
+.tabla tr{
+    text-align: pretty;
+    font-weight: 400;
+}.tabla tr p{
+  margin: 0 10px 0 10px;
+}
+
+.generarpdf{
+     padding: 10px 20px;
+     border: none;
+     background-color: #44f144;
+     color: eee;
+}
+.generarpdf:hover{
+    background-color: #63fd63;
+    transition: 0.4s ease-in;
+    color: eee;
+}
+/*MENSAJES DE ERROR*/
+.error-message {
+  background-color: #f8d7da; /* Color de fondo rojo claro */
+  border: 1px solid #f5c6cb; /* Borde rojo */
+  color: #721c24; /* Color de texto oscuro */
+  padding: 10px 15px; /* Espaciado interior */
+  border-radius: 5px; /* Bordes redondeados */
+  margin-bottom: 10px; /* Margen inferior */
+}
+
+.error-icon {
+  font-size: 20px; /* Tamaño del icono */
+  margin-right: 10px; /* Espacio entre el icono y el texto */
+  color: #721c24; /* Color del icono (puede ser diferente al texto) */
+}
+/*MENSAJES DE ERROR*/
+.main-container.hero-body{
+    
+}
